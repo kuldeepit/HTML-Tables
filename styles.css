@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px; /* smaller font size */
+}
+
+th, td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: red; /* background color for the first row */
+  color: white; /* text color for the first row */
+}
+
+.bold {
+  font-weight: bold;
+}
